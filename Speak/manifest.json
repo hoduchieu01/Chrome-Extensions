@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Speak",
+  "description": "Extension to speak selected text by hoduchieu01",
+  "version": "1.0",
+  "icons": {
+    "128": "icon.png",
+    "48": "icon.png",
+    "16": "icon.png"
+  },
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "permissions": [
+          "contextMenus",
+          "tts"
+        ]
+}
